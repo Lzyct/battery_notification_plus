@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:layout="@layout/pref_about_config">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="key_background"
+            android:summary="@string/background_summary"
+            android:title="@string/backgroud_title" />
+        <ListPreference
+            android:defaultValue="10"
+            android:entries="@array/entries_battery_low"
+            android:entryValues="@array/entry_values_battery_low"
+            android:key="value_battery_low"
+            android:title="@string/set_value_title" />
+
+        <EditTextPreference
+            android:defaultValue="50"
+            android:inputType="number"
+            android:key="tmp_alert"
+            android:summary="50"
+            android:title="@string/tmp_alert_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/pref_about_notif">
+        <RingtonePreference
+            android:key="low_sound"
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:title="@string/sound_low_title" />
+        <RingtonePreference
+            android:key="full_sound"
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="@string/sound_full_summary"
+            android:title="@string/sound_full_title" />
+        <RingtonePreference
+            android:key="charge_sound"
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="@string/sound_charge_summary"
+            android:title="@string/sound_charge_title" />
+        <RingtonePreference
+            android:key="discharge_sound"
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="@string/sound_discharge_summary"
+            android:title="@string/sound_discharge_title" />
+
+        <RingtonePreference
+            android:key="tmp_sound"
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="@string/tmp_sound_summary"
+            android:title="@string/tmp_sound_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/pref_about_title">
+        <PreferenceScreen
+            android:summary="@string/app_info_summary"
+            android:title="@string/app_info_title" />
+        <PreferenceScreen
+            android:key="changelog"
+            android:summary="@string/changelog_summary"
+            android:title="@string/changelog_title" />
+
+        <PreferenceScreen
+            android:summary="@string/devid_summary"
+            android:title="@string/devid_title" />
+        <PreferenceScreen
+            android:key="email"
+            android:summary="@string/contact_summary"
+            android:title="@string/contact_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/blue</color>
+    <color name="colorPrimaryDark">@color/blue</color>
+    <color name="colorAccent">@color/colorPrimary</color>
+
+    <!--Color pallate menu-->
+    <color name="greenDark">#00A65A</color>
+    <color name="green">#83c886</color>
+    <color name="redLight">#Ed5565</color>
+    <color name="yellowDark">#F8AC59</color>
+    <color name="blue">#2E8A9C</color>
+    <color name="tesla">#23C6C8</color>
+    <color name="redSoft">#c9614a</color>
+    <color name="purple">#5856d6</color>
+    <color name="gray">#C9C9C9</color>
+    <color name="red">#F71827</color>
+
+    <color name="night">#34495e</color>
+    <color name="morning">#f0c551</color>
+
+    <color name="background">#fdfdfd</color>
+    <color name="background_morning">#eef3f6</color>
+
+    <!--Text Color-->
+    <color name="dark">#3A3E44</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white80">#b4ffffff</color>
+</resources>

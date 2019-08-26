@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "933728282213",
+    "firebase_url": "https://learning-project-ads.firebaseio.com",
+    "project_id": "learning-project-ads",
+    "storage_bucket": "learning-project-ads.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933728282213:android:f1b6a0b8d6911c3e",
+        "android_client_info": {
+          "package_name": "com.tuxdev.batterynotifplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933728282213-m019i2emuv3m5pe9girca7spj6jervdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH9NuC-tHcfePHM_Pd1JV-6jCXGWvn2SU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933728282213:android:2f18d60f94742c83",
+        "android_client_info": {
+          "package_name": "com.tuxdev.dndshalat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933728282213-m019i2emuv3m5pe9girca7spj6jervdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH9NuC-tHcfePHM_Pd1JV-6jCXGWvn2SU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

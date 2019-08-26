@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/morning</item>
+        <item name="colorPrimaryDark">@color/morning</item>
+        <item name="colorAccent">@color/morning</item>
+        <item name="android:windowBackground">@color/background_morning</item>
+        <item name="android:textColor">@color/morning</item>
+        <item name="android:fontFamily">@font/gotham_bold</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppThemeNight" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/night</item>
+        <item name="colorPrimaryDark">@color/night</item>
+        <item name="colorAccent">@color/night</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColor">@color/night</item>
+        <item name="android:fontFamily">@font/gotham_bold</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.Transparent" parent="AppTheme">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:colorAccent">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+</resources>

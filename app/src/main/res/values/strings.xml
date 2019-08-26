@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">BatteryNotif+</string>
+
+    <string name="changelog">
+        Version 1.0\n
+        ----------------------\n
+        [*] Battery Information\n
+        [*] Set Notification for battery status\n\n
+
+        Version 1.1\n
+        ----------------------\n
+        [*] Fix bug notification icon tint\n
+        [*] Fix Bug notification sound still enable when silent selected\n
+        [*] Add Temperature alert sound\n
+
+    </string>
+
+    <string name="battery_info_status_unknown">Unknown</string>
+    <string name="battery_info_status_charging">Charging</string>
+    <string name="battery_info_status_discharging">Discharging</string>
+    <string name="battery_info_status_not_charging">Not charging</string>
+    <string name="battery_info_status_full">Full</string>
+    <string name="battery_info_status_low">Low Battery</string>
+    <string name="battery_info_power_unplugged">Unplugged</string>
+    <string name="battery_info_power_ac">AC</string>
+    <string name="battery_info_power_usb">USB</string>
+    <string name="battery_info_power_wireless">Wireless</string>
+    <string name="battery_info_power_ac_usb">AC+USB</string>
+    <string name="battery_info_power_unknown">Unknown</string>
+    <string name="battery_info_health_unknown">Unknown</string>
+    <string name="battery_info_health_good">Good</string>
+    <string name="battery_info_health_overheat">Overheat</string>
+    <string name="battery_info_health_dead">Dead</string>
+    <string name="battery_info_health_over_voltage">Over voltage</string>
+    <string name="battery_info_health_unspecified_failure">Unknown error</string>
+    <string name="battery_info_mAh">%1$s mAh</string>
+    <string name="battery_info_percent">%1$s %%</string>
+    <string name="title_capacity">Battery Capacity</string>
+    <string name="design_capacity">Design Capacity : %1$s mAh</string>
+    <string name="current_capacity">Estimated Capacity : %1$s mAh (%2$s%%)</string>
+    <string name="current_capacity_null">Estimated Capacity : %1$s</string>
+    <string name="title_status">Battery Status</string>
+    <string name="status_health">Battery Health : %1$s</string>
+    <string name="status_volt">Battery Volt : %1$s mV</string>
+    <string name="status_tmp">Battery Temp : %1$s° C</string>
+    <string name="status_cycle_count">Battery Cycle Count : %1$s</string>
+    <string name="title_information">Battery Information</string>
+    <string name="information_tech">Battery Technology : %1$s</string>
+    <string name="information_uptime">Uptime : %1$s</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Tab General -->
+    <string name="sound_low_title">Battery Low Sound</string>
+    <string name="sound_full_title">Battery Full Sound</string>
+    <string name="sound_full_summary">Set notification sound for battery Full</string>
+    <string name="sound_charge_title">Battery Charge Sound</string>
+    <string name="sound_charge_summary">Set notification sound for battery Charge</string>
+    <string name="sound_discharge_title">Battery Discharge Sound</string>
+    <string name="sound_discharge_summary">Set notification sound for battery Discharge</string>
+    <string name="notification_title">Notification</string>
+    <string name="tmp_sound_title">Temperature Alert Sound</string>
+    <string name="tmp_sound_summary">Set notification sound for temperature alert</string>
+
+    <!-- Tab Settings -->
+    <string name="set_value_title">Battery Low Level</string>
+    <string name="set_value_summary">Set Value Battery Low in Percent</string>
+    <string name="devinfo">About Application</string>
+    <string name="setboot_title">Set on boot</string>
+    <string name="setboot_summary">Run app when boot</string>
+    <string name="app_info_title">@string/app_name</string>
+    <string name="app_info_summary">Version 1.0</string>
+    <string name="devid_title">Developer ID</string>
+    <string name="devid_summary">tuxkids</string>
+    <string name="contact_title">Contact Developer</string>
+    <string name="contact_summary">ukie.tux@gmail.com</string>
+
+
+    <!-- Tab Name -->
+    <string name="action_settings">Settings</string>
+    <string name="general_title">General</string>
+    <string name="advance_title">Advance</string>
+    <!-- Tab Advance -->
+    <string name="battery_info">Battery Information</string>
+    <string name="advance_option">Advance Settings</string>
+    <string name="kosong" />
+    <string name="status_title">Battery status</string>
+    <string name="plug_title">Power Plug</string>
+    <string name="level_title">Battery Level</string>
+    <string name="health_title">Battery Health</string>
+    <string name="voltage_title">Battery Voltage</string>
+    <string name="temp_title">Battery Temperature</string>
+    <string name="tekno_title">Battery Technology</string>
+    <string name="time_title">Time Since Boot</string>
+    <string name="battery_info_temperature_units">° C</string>
+    <string name="fast_title">Fast Charge</string>
+    <string name="fast_summary">Enable/Disable Fast Charge</string>
+    <string name="kalibarasi_title">Battery Calibration</string>
+    <string name="kalibarasi_summary">Tap here to calibrate your battery</string>
+    <string name="about_app">About Application</string>
+    <string name="backgroud_title">Run app in background</string>
+    <string name="background_summary">Show notification to keep app run in background</string>
+    <string name="config_title">Configuration</string>
+
+
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">See Changelog</string>
+    <string name="cancel">Cancel</string>
+    <string name="tmp_alert_title">Temperature Alert (°C)</string>
+</resources>

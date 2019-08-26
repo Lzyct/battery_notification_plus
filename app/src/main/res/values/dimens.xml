@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="default_margin_half">8dp</dimen>
+
+    <!--Font Size-->
+    <dimen name="text_size_small">10.0sp</dimen>
+    <dimen name="text_size_medium">12.0sp</dimen>
+    <dimen name="text_size_normal">14.0sp</dimen>
+    <dimen name="text_size_large">18.0sp</dimen>
+    <dimen name="text_size_large_x">22.0sp</dimen>
+    <dimen name="text_size_extra_large">24.0sp</dimen>
+    <dimen name="text_size_extra_large2">28.0sp</dimen>
+    <dimen name="text_size_extra_large3">32.0sp</dimen>
+    <dimen name="text_size_extra_large4">36.0sp</dimen>
+    <dimen name="text_size_extra_large5">45.0sp</dimen>
+    <dimen name="text_size_extra_large6">54.0sp</dimen>
+
+    <!--Dimen Layout-->
+    <dimen name="button_corner">30dp</dimen>
+    <dimen name="card_radius">15dp</dimen>
+    <dimen name="card_elevation">1dp</dimen>
+    <dimen name="toolbar_size">275dp</dimen>
+    <dimen name="header_size">200dp</dimen>
+    <dimen name="wave_size">150dp</dimen>
+    <dimen name="dimen100">60dp</dimen>
+    <dimen name="dimen300">300dp</dimen>
+</resources>
